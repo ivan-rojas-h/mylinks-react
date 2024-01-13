@@ -1,0 +1,17 @@
+.content {
+  /* background-color: aliceblue; */
+  width: 600px;
+  height: auto;
+  margin-top: var(--XL);
+  padding-top: calc(var(--XL) * 2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content__description {
+  font-size: var(--MEDIUM);
+  margin-top: var(--XL);
+  text-align: justify;
+}

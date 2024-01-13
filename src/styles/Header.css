@@ -1,0 +1,30 @@
+.header {
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--LARGE);
+}
+
+.header__image {
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/avatar.png');
+  background-size: cover;
+  background-repeat: none;
+  background-position-y: center;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid var(--SECONDARY);
+}
+
+.header__title {
+  font-size: var(--XL);
+  font-family: Roboto, sans-serif;
+}
+
+.header__text {
+  font-size: var(--MEDIUM);
+  color: var(--ACCENT);
+}

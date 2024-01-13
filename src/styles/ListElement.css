@@ -1,0 +1,32 @@
+.list-element {
+  display: flex;
+  align-items: center;
+  gap: var(--SMALL);
+  background-color: var(--SUPPLEMENTARY);
+  margin-bottom: var(--LARGE);
+  border-radius: var(--SMALL);
+  padding: var(--SMALL);
+  margin-top: var(--SMALL);
+}
+
+.list-element:hover {
+  background-color: var(--SECONDARY);
+  color: var(--PRIMARY);
+  transition: 200ms ease-in-out;
+}
+
+.list-element-icon {
+  font-size: var(--XL);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-element h3 {
+  font-size: var(--LARGE);
+  text-transform: capitalize;
+}
+
+.list-element p {
+  font-size: var(--MEDIUM);
+}

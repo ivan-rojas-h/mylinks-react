@@ -1,0 +1,16 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: var(--XL);
+  padding-block: var(--MEDIUM);
+  position: fixed;
+  top: 0;
+}
+
+.navbar__logo {
+  color: var(--ACCENT);
+  font-size: var(--LARGE);
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.links-list {
+  /* background-color: aliceblue; */
+  width: 100%;
+  margin-top: var(--XL);
+  visibility: hidden;
+}
+
+.links-list h2 {
+  font-size: var(--XL);
+}
+
+.links-list.show {
+  visibility: visible;
+}
