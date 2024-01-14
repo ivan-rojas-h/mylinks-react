@@ -11,13 +11,13 @@ function LinksList({ groupTitle, groupType }){
       links: {
         github: {
           name: 'github',
-          url: 'https://github.com',
+          url: 'https://github.com/ivan-rojas-h',
           desc: 'Da una vuelta por mis repositorios.',
           icon: 'TfiGithub'
         },
         linkedIn: {
           name: 'LinkedIn',
-          url: '#url',
+          url: 'https://www.linkedin.com/in/kivan-rojas/',
           desc: '¿Quieres conocer mi trayectoria laboral completa? ¡Aquí es donde!',
           icon: 'TfiLinkedin'
         }
@@ -28,7 +28,7 @@ function LinksList({ groupTitle, groupType }){
       links: {
         instagram: {
           name: 'instagram',
-          url: 'https://github.com',
+          url: 'https://www.instagram.com/k.kivan.r/',
           desc: 'Un poco de mi vida en las redes sociales',
           icon: 'TfiInstagram ',
         },
