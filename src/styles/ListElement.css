@@ -7,12 +7,12 @@
   border-radius: var(--SMALL);
   padding: var(--SMALL);
   margin-top: var(--SMALL);
+  transition: 200ms ease-in-out;
 }
 
 .list-element:hover {
   background-color: var(--SECONDARY);
   color: var(--PRIMARY);
-  transition: 200ms ease-in-out;
 }
 
 .list-element-icon {
